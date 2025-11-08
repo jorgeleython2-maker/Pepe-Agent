@@ -8,7 +8,7 @@ import { useState } from "react"
 export default function AboutPage() {
   const router = useRouter()
   const [copied, setCopied] = useState(false)
-  const contractAddress = "YOUR_CA_HERE" // Replace with your contract address
+  const contractAddress = "CA very soon" // Replace with your contract address
 
   const handleCopyCA = () => {
     navigator.clipboard.writeText(contractAddress)
