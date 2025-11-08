@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   title: "mascalo",
   description: "Created with PF dev",
   icons: {
-    icon: "https://ibb.co/m58Srzpp",
-    apple: "https://ibb.co/jPWnQ1mx", // ← Corregido: falta coma y comillas
+    icon: "https://i.postimg.cc/PxpDyPd4/apple-icon.png",
+    apple: "https://i.postimg.cc/PxpDyPd4/apple-icon.png", // ← Corregido: falta coma y comillas
   },
 }
 
