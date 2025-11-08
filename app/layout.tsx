@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   title: "Pepe Agent",
   description: "Created with PF dev",
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png", // ← Corregido: falta coma y comillas
+    icon: "https://ibb.co/BH2G991r",
+    apple: "https://ibb.co/jPWnQ1mx", // ← Corregido: falta coma y comillas
   },
 }
 
