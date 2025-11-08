@@ -9,7 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Pepe Agent",
   description: "Created with PF dev",
-  generator: "https://ibb.co/Xx6rrS2f",
+  generator: "pepon.png",
 }
 
 export default function RootLayout({
