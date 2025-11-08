@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Pepe Agent",
+  title: "mascalo",
   description: "Created with PF dev",
   icons: {
     icon: "https://ibb.co/m58Srzpp",
