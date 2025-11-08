@@ -9,10 +9,10 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Pepe Agent",
   description: "Created with PF dev",
- icons: {
-  icon: "/favicon.ico",
-  apple: '/apple-touch-icon.png'
-  }
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png", // ← Corregido: falta coma y comillas
+  },
 }
 
 export default function RootLayout({
@@ -22,6 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Asegura compatibilidad extra con favicon */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      </head>
       <body className={`font-sans antialiased`}>{children}</body>
     </html>
   )
