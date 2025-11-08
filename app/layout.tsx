@@ -24,8 +24,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Asegura compatibilidad extra con favicon */}
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="public/apple-icon.png" />
+        <link rel="apple-touch-icon" href="public/apple-icon.png" />
       </head>
       <body className={`font-sans antialiased`}>{children}</body>
     </html>
