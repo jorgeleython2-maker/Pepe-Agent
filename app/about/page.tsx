@@ -17,7 +17,7 @@ export default function AboutPage() {
   }
 
   const handleTwitterClick = () => {
-    window.open("https://twitter.com/yourhandle", "_blank") // Replace with your Twitter handle
+    window.open("https://x.com/i/communities/1988314525871849678/", "_blank") // Replace with your Twitter handle
   }
 
   return (
@@ -167,7 +167,7 @@ export default function AboutPage() {
               className="px-6 py-6 text-lg font-bold bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white rounded-lg shadow-2xl shadow-blue-500/50 transition-all hover:scale-105 flex items-center justify-center gap-2"
             >
               <Share2 className="w-5 h-5" />
-              Follow on X
+              X community
             </Button>
 
             <Button
