@@ -8,7 +8,7 @@ import { useState } from "react"
 export default function AboutPage() {
   const router = useRouter()
   const [copied, setCopied] = useState(false)
-  const contractAddress = " Fbk35zEYW9Cfr3seuwfPkn1mkAsVYZ3TKSKDCDM7pump" // Replace with your contract address
+  const contractAddress = "Fbk35zEYW9Cfr3seuwfPkn1mkAsVYZ3TKSKDCDM7pump" // Replace with your contract address
 
   const handleCopyCA = () => {
     navigator.clipboard.writeText(contractAddress)
@@ -175,7 +175,7 @@ export default function AboutPage() {
               className="px-6 py-6 text-lg font-bold bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white rounded-lg shadow-2xl shadow-green-500/50 transition-all hover:scale-105 flex items-center justify-center gap-2"
             >
               <Copy className="w-5 h-5" />
-              {copied ? "Copied!" : "Copy CA"}
+              {copied ? "Copied!" : "Fbk35zEYW9Cfr3seuwfPkn1mkAsVYZ3TKSKDCDM7pump"}
             </Button>
           </div>
 
