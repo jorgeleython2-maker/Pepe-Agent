@@ -8,7 +8,7 @@ interface SearchBarProps {
 }
 
 export default function SearchBar({ onSearch }: SearchBarProps) {
-  const [input, setInput] = useState("Hj4e1sTVej9nLK9vdmb6qLY9TusWDqEWjGKL4Sfmpump")
+  const [input, setInput] = useState("5TfqNKZbn9AnNtzq8bbkyhKgcPGTfNDc9wNzFrTBpump")
   const [isLoading, setIsLoading] = useState(false)
   const [recentSearches, setRecentSearches] = useState<string[]>([])
 
