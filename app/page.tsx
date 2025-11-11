@@ -55,7 +55,7 @@ export default function Home() {
           </div>
 
           {/* Footer text */}
-          <p className="mt-16 text-slate-500 text-sm">Powered by advanced crypto analysis • Always DYOR</p>
+          <p className="mt-16 text-slate-500 text-sm">Powered by advanced crypto analysis • Pepe Agent of Pump Fun</p>
         </div>
       </div>
     </div>
